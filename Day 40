@@ -1,0 +1,12 @@
+name = input("Enter your name: ").strip()
+dob = input("Enter your date of birth: ").strip()
+number = input("Enter your telephone number: ").strip()
+email = input("Enter your email: ").strip()
+address = input("Enter your address: ").strip()
+
+contact = {"name": name, "DOB": dob, "number": number, "email": email, "address": address} # make this after the variable have been assigned
+
+print()
+print("Contact Card")
+print()
+print(f" Name: {contact['name']}\n DOB: {contact['DOB']}\n Number: {contact['number']}\n Email: {contact['email']}\n Address: {contact['address']}")
